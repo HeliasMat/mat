@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.cookie-container {
+    margin-top: 20px;
+}
+
+#cookie {
+    width: 150px;
+    cursor: pointer;
+}
+/* Add a CSS class for the animation */
+#cookie.clicked {
+    transform: scale(1.2); /* Increase the size */
+    transition: transform 0.2s ease; /* Apply a smooth transition effect */
+}
+
+
+#score {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

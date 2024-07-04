@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Battle</title>
+    <link rel="stylesheet" href="pokemon.css">
+</head>
+<body>
+    <div id="app" class="dark-theme">
+        <h1 id="title">Pokemon Battle</h1>
+        <div id="battle-container">
+            <div class="pokemon opponent" id="pokemon2">
+                <img src="griffedoux.jpg" alt="Charmander" id="charmander-image">
+                <h2>Salamèche</h2>
+                <p id="charmander-type"></p>
+                <div class="hp-bar">
+                    <div class="hp" id="hp2"><span id="hp2-value">100</span></div>
+                </div>
+            </div>
+            <p></p>
+            <div class="pokemon player" id="pokemon1">
+                <img src="pikachu.jpg" alt="Pikachu" id="pikachu-image">
+                <h2>Pikachu</h2>
+                <p id="pikachu-type"></p>
+                <div class="hp-bar">
+                    <div class="hp" id="hp1"><span id="hp1-value">100</span></div>
+                </div>
+            </div>
+        </div>
+        <div id="choices">
+            <p class="action-text" id="action-text"></p>
+            <p class="choose-move">Choisis une capacitée :</p>
+            <button onclick="attack(0)">Éclair</button>
+            <button onclick="attack(1)">Vive-Attaque</button>
+            <button onclick="attack(2)">Queue de Fer</button>
+            <button onclick="attack(3)">Boule Élek</button>
+        </div>
+    </div>
+    <script src="pokemon.js"></script>
+</body>
+</html>

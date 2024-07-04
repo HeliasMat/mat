@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #222;
+}
+
+#gameContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#chessBoard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+  border: 5px solid #f1c40f;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+}
+
+.square {
+  width: 12.5%;
+  height: 12.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+.light {
+  background-color: #F0D9B5;
+}
+
+.dark {
+  background-color: #B58863;
+}
+
+#capturedPiecesWhite {
+  font-size: 18px;
+  color: #000000;
+  margin: 8px;
+  display: inline-block;
+  padding: 8px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+#capturedPiecesBlack {
+  font-size: 18px;
+  color: #ffffff;
+  margin: 8px;
+  display: inline-block;
+  padding: 8px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #000000;
+}
+
+#currentTurnDisplay {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 16px 0;
+  text-align: center;
+  text-transform: capitalize;
+  color: #333;
+  border: 2px solid #f1c40f;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #555;
+  display: inline-block;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.black {
+  color: #000000;
+}
+.selected {
+  outline: 3px solid #f00; /* You can customize the color and style of the outline */
+}

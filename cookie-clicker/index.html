@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Clicker Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cookie Clicker</h1>
+        <p>Click the cookie to earn points!</p>
+        <div class="cookie-container">
+            <img src="cookie.png" alt="Cookie" id="cookie" onclick="clickCookie()" width="200px" height="auto">
+        </div>
+        <p id="score">Score: 0</p>
+        <button onclick="resetGame()">Reset Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

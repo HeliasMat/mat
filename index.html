@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'aventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" class="dark-theme">
+        <h1 id="title">L'aventure</h1>
+        <div id="story">
+            <img id="storyImage" src="" alt="Image de l'étape actuelle" />
+            <p id="storyText"></p>
+            <audio id="storyAudio" src="" preload="auto"></audio>
+        </div>
+        <div id="choices"></div>
+        <button id="backButton" onclick="goBack()">Retour</button>
+        <div id="inventory">
+            <h2>Inventaire:</h2>
+            <ul id="inventoryItems"></ul>
+        </div>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
